@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Résumé for $author$</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Eric Drechsel" />
+  <meta name="date" content="$date$" />
+$for(css)$
+  <link rel="stylesheet" href="$css$" type="text/css" />
+$endfor$
+$styles$
+$for(author)$
+  <meta name="author" content="$author$" />
+$endfor$
+$for(header-includes)$
+  $header-includes$
+$endfor$
+</head>
+<body>
+$for(include-before)$
+  $include-before$
+$endfor$
+$if(toc)$
+$toc$
+$endif$
+$if(logoimg)$
+<a id='logo' href='$logourl$'><img src='$logoimg$' $if(logoalt)$alt='$logoalt$'$endif$/></a>
+$endif$
+$body$
+$for(include-after)$
+$include-after$
+$endfor$
+</body>
+</html>
