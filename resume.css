@@ -4,13 +4,13 @@ body {
     padding: 2em 3em 2em 3em;
     /*border: solid grey;*/
     background-repeat: no-repeat;
+    font-family: "Times New Roman",Georgia,Serif;
 }
 
 #logo {
     background: none;
     border: 2px solid transparent;
     float: right;
-    clear: none;
 }
 
 #logo:hover { border-color: blue; }
